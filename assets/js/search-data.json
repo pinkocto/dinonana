@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "",
-            "url": "https://pinkocto.github.io/dinonana/2022/04/26/List_Comprehension.html",
-            "relUrl": "/2022/04/26/List_Comprehension.html",
+            "title": "파이썬 기초",
+            "content": "List Comprehension . 1번 기본문제 . a = [] for i in range(1, 11, 1): a.append(i) print(a) . [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] . append를 이용하여 리스트에 추가 | . a = [i for i in range(1, 11, 1)] print(a) . [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] . List Comprehension 적용 | . 2번 기본문제 . b = [] for i in range(1, 11, 1): b.append(i ** 2) print(b) . [1, 4, 9, 16, 25, 36, 49, 64, 81, 100] . b = [i ** 2 for i in range(1, 11, 1)] print(b) . [1, 4, 9, 16, 25, 36, 49, 64, 81, 100] . 3번 리스트 컴프리헨션 + if . c = [1, 2, 3, 4, 5] . class_id = [i for i in c] print(class_id) . [1, 2, 3, 4, 5] . class_id = [i for i in c if i &gt;= 4] print(class_id) . [4, 5] .",
+            "url": "https://pinkocto.github.io/dinonana/python/2022/04/26/List_Comprehension.html",
+            "relUrl": "/python/2022/04/26/List_Comprehension.html",
             "date": " • Apr 26, 2022"
         }
         
